@@ -7,13 +7,49 @@ body {
     flex-direction: column;
     margin: 0px;
     justify-content: space-between;
-    min-height: 100vh; /* Full  height*/
+    min-height: 100vh; /* Full  height */
 }
 
 .top {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 10px 0px;
+    padding: 0px 24px 0px;
     background-color: #f0f0f0;
 }
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 24px 50px;
+    background-color: yellow;
+    gap: 16px;
+}
+.cbox {
+    height: 300px;
+    outline: 2px solid blue;
+    text-align: center;
+}
+.set {
+    display: flex;
+    flex: 0 0 150px;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 16px;
+}
+.card{
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
+    outline: 2px solid grey;
+    min-width: 150px;
+}
+.cardtext {
+    max-width: 150px;
+    outline: 2px solid red;
+}
+  /* Add rounded corners to the top left and the top right corner of the image */
+  img {
+    border-radius: 5px 5px 0 0;
+  }

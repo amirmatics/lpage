@@ -1,5 +1,5 @@
 * {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family:'Roboto', Tahoma, Geneva, Verdana, sans-serif
 }
 
 body {
@@ -17,6 +17,7 @@ body {
     padding: 0px 24px 0px;
     background-color: #f0f0f0;
 }
+
 .intro {
     display: flex;
     align-items: center;
@@ -26,30 +27,60 @@ body {
     background-color: yellow;
     gap: 16px;
 }
-.cbox {
+
+.container {
     height: 300px;
     outline: 2px solid blue;
-    text-align: center;
 }
+
 .set {
     display: flex;
     flex: 0 0 150px;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     gap: 16px;
     padding: 16px;
+    text-align: center;
 }
-.card{
-    transition: 0.3s;
-    border-radius: 5px; /* 5px rounded corners */
-    outline: 2px solid grey;
-    min-width: 150px;
+
+.card {
+    border-radius: 25px;
+    outline: 2px solid  #1F2937;
+    height: 100px;
+    width: 150px; /* specify height and width with cards always */
+    padding: 8px;
 }
+
 .cardtext {
-    max-width: 150px;
-    outline: 2px solid red;
+    margin-top: -16px;
+    height: 100px;
+    width: 166px;
 }
-  /* Add rounded corners to the top left and the top right corner of the image */
-  img {
-    border-radius: 5px 5px 0 0;
-  }
+
+.qcontainer {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    outline: 2px solid red;
+    background-color: #f0f0f0;
+}
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 204px;
+    background-color: blue;
+    margin: 48px 124px;
+    gap: 16px;
+}
+.lastchance {
+    height: 24px;
+    width: 100px;
+}
+.bottom {
+    text-align: center;
+    font-size: 12px;
+}

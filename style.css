@@ -10,7 +10,7 @@ body {
     min-height: 100vh; /* Full  height */
 }
 
-.top {
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -84,7 +84,7 @@ body {
     height: 24px;
     width: 100px;
 }
-.bottom {
+.footer {
     text-align: center;
     font-size: 18px;
 }
